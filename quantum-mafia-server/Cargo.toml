@@ -1,0 +1,13 @@
+[package]
+name = "quantum-mafia-server"
+version = "0.1.0"
+authors = ["Adam Dunlap <dunlapadam@gmail.com>"]
+
+[dependencies]
+ws = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+
+[dependencies.quantum-mafia]
+path = "../quantum-mafia"
